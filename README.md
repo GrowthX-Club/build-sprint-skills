@@ -7,7 +7,7 @@ Every skill a Build Sprint project needs, installable with one command. Copies a
 From inside your project folder (works for both Codex and Claude Code):
 
 ```
-npx --yes skills add https://github.com/GrowthX-Club/build-sprint-skills --skill '*' -a codex -a claude-code -y
+npx --yes skills add GrowthX-Club/build-sprint-skills --skill '*' -a codex -a claude-code -y
 ```
 
 Then restart Codex / Claude. Skills only load when a session starts.
