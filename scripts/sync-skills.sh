@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Refreshes the vendored copies in skills/ from the upstream repos listed in skills.tsv.
-# grill-me, art-direction, checkpoint and keep-it-working are ours and are not touched.
+# grill-me, art-direction, checkpoint, keep-it-working and playwright are ours and are not touched.
 set -euo pipefail
 
 root="$(cd "$(dirname "$0")/.." && pwd)"
@@ -19,6 +19,7 @@ sources="$root/SOURCES.md"
   echo "| art-direction | ours, adapted from AgriciDaniel/banana-claude (MIT) and nexu-io/open-design (Apache-2.0) | — |"
   echo "| checkpoint | ours | — |"
   echo "| keep-it-working | ours, discipline adapted from obra/superpowers (MIT) | — |"
+  echo "| playwright | ours | — |"
 } > "$sources"
 
 grep -v '^#' "$root/skills.tsv" | while IFS=$'\t' read -r name repo path; do

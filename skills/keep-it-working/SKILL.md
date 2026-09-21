@@ -16,8 +16,8 @@ Pick the cheapest rung that actually catches the failure. Climbing higher than t
 | Rung | Use when | What you do |
 |---|---|---|
 | **1. Look at it** | The failure would be obvious on sight — layout, copy, colour, spacing | Open the page. Look. Done. No test earns its keep here |
-| **2. Walk the path** | Multi-step flow you can still click through — sign up → create → see it listed | Drive the running app once, end to end, and report what you saw. No setup, no files |
-| **3. Write one test** | Breaking it would be silent, or checking by hand takes more than a minute — background jobs, webhooks, anything with a database round trip | One test for the happy path. Not a suite |
+| **2. Walk the path** | Multi-step flow you can still click through — sign up → create → see it listed | Drive the running app once, end to end, and report what you saw. No setup, no files. See `playwright` |
+| **3. Write one test** | Breaking it would be silent, or checking by hand takes more than a minute — background jobs, webhooks, anything with a database round trip | One test for the happy path. Not a suite. For whole flows, `playwright` |
 | **4. Test first** | You can state the rule before the code exists, or you're fixing a bug you can reproduce | Write the failing test, watch it fail, then make it pass |
 
 ## When test-first actually pays

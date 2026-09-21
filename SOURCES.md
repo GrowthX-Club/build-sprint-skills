@@ -8,6 +8,7 @@ Vendored by `scripts/sync-skills.sh` on 2026-09-21. Each folder keeps its upstre
 | art-direction | ours, adapted from AgriciDaniel/banana-claude (MIT) and nexu-io/open-design (Apache-2.0) | — |
 | checkpoint | ours | — |
 | keep-it-working | ours, discipline adapted from obra/superpowers (MIT) | — |
+| playwright | ours | — |
 | vercel-react-best-practices | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills/tree/063bee9/skills/react-best-practices) | `063bee9` |
 | frontend-design | [anthropics/skills](https://github.com/anthropics/skills/tree/34040c9/skills/frontend-design) | `34040c9` |
 | impeccable | [pbakaus/impeccable](https://github.com/pbakaus/impeccable/tree/f2c7051/.agents/skills/impeccable) | `f2c7051` |

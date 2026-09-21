@@ -30,7 +30,8 @@ Already installed an earlier bundle? Run the same command again — it overwrite
 | art-direction | Any image asset — hero, og:image, illustration, empty state. Gives the project one visual point of view first |
 | checkpoint | Saves your work to git every time the app works, and gets you back when something breaks |
 | keep-it-working | Right after a feature works, or when one breaks. Decides how much proof it needs, from a glance to a test written first |
+| playwright | Walking a flow end to end in a real browser, and checking the live site still works after a deploy |
 
 ## Updating the copies
 
-Edit `skills.tsv`, then run `./scripts/sync-skills.sh`. It re-copies every listed skill, keeps upstream licenses next to each one, and rewrites SOURCES.md with the commit each came from. `skills/grill-me`, `skills/art-direction`, `skills/checkpoint` and `skills/keep-it-working` are ours and are never overwritten.
+Edit `skills.tsv`, then run `./scripts/sync-skills.sh`. It re-copies every listed skill, keeps upstream licenses next to each one, and rewrites SOURCES.md with the commit each came from. `skills/grill-me`, `skills/art-direction`, `skills/checkpoint`, `skills/keep-it-working` and `skills/playwright` are ours and are never overwritten.
