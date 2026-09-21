@@ -27,7 +27,8 @@ Already installed an earlier bundle? Run the same command again — it overwrite
 | convex-agent | Adding an AI agent or chat to the app |
 | copywriting | Landing page, pricing page, headlines |
 | agentation | You want to point at things on your running app instead of describing them. Type `/agentation` once to set it up |
+| art-direction | Any image asset — hero, og:image, illustration, empty state. Gives the project one visual point of view first |
 
 ## Updating the copies
 
-Edit `skills.tsv`, then run `./scripts/sync-skills.sh`. It re-copies every listed skill, keeps upstream licenses next to each one, and rewrites SOURCES.md with the commit each came from. `skills/grill-me` is ours and is never overwritten.
+Edit `skills.tsv`, then run `./scripts/sync-skills.sh`. It re-copies every listed skill, keeps upstream licenses next to each one, and rewrites SOURCES.md with the commit each came from. `skills/grill-me` and `skills/art-direction` are ours and are never overwritten.
