@@ -12,6 +12,8 @@ npx --yes skills add GrowthX-Club/build-sprint-skills --skill '*' -a codex -a cl
 
 Then restart Codex / Claude. Skills only load when a session starts.
 
+Already installed an earlier bundle? Run the same command again — it overwrites the copies in place and picks up anything new.
+
 ## What's inside
 
 | Skill | Loads when |
@@ -24,6 +26,7 @@ Then restart Codex / Claude. Skills only load when a session starts.
 | convex-auth | Adding sign-in |
 | convex-agent | Adding an AI agent or chat to the app |
 | copywriting | Landing page, pricing page, headlines |
+| agentation | You want to point at things on your running app instead of describing them. Type `/agentation` once to set it up |
 
 ## Updating the copies
 
