@@ -38,7 +38,11 @@ grep -v '^#' "$root/skills.tsv" | while IFS=$'\t' read -r name repo path; do
     fi
   done
 
+  rm -rf "$root/skills/$name/.git"
+
   sha="$(git -C "$checkout" rev-parse --short HEAD)"
-  echo "| $name | [$repo](https://github.com/$repo/tree/$sha/$path) | \`$sha\` |" >> "$sources"
+  link="https://github.com/$repo/tree/$sha"
+  [ "$path" = "." ] || link="$link/$path"
+  echo "| $name | [$repo]($link) | \`$sha\` |" >> "$sources"
   echo "synced $name ($repo@$sha)"
 done

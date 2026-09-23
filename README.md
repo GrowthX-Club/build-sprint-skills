@@ -30,6 +30,7 @@ Already installed an earlier bundle? Run the same command again — it overwrite
 | art-direction | Any image asset — hero, og:image, illustration, empty state. Gives the project one visual point of view first |
 | checkpoint | Saves your work to git every time the app works, and gets you back when something breaks |
 | keep-it-working | Right after a feature works, or when one breaks. Decides how much proof it needs, from a glance to a test written first |
+| clearshot | You paste a screenshot of a UI — a design you want to match, or your own screen. Reads it as hex values, px spacing and a component inventory instead of "a dashboard with some cards" |
 | playwright | Walking a flow end to end in a real browser, and checking the live site still works after a deploy |
 
 ## Updating the copies
