@@ -21,7 +21,6 @@ Already installed an earlier bundle? Run the same command again — it overwrite
 | grill-me | You share a new idea or feature that isn't scoped yet. Interviews you before any code |
 | frontend-design | Building or reshaping UI |
 | impeccable | Any UI work. Type `/impeccable` for its menu (`polish`, `adapt`, `clarify`, `harden`, …) |
-| vercel-react-best-practices | Writing or reviewing React / Next.js code |
 | convex-expert | Writing code in `convex/`. Name it if it doesn't kick in |
 | convex-auth | Adding sign-in |
 | convex-agent | Adding an AI agent or chat to the app |

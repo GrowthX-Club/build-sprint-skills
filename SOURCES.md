@@ -9,7 +9,6 @@ Vendored by `scripts/sync-skills.sh` on 2026-09-23. Each folder keeps its upstre
 | checkpoint | ours | — |
 | keep-it-working | ours, discipline adapted from obra/superpowers (MIT) | — |
 | playwright | ours | — |
-| vercel-react-best-practices | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills/tree/063bee9/skills/react-best-practices) | `063bee9` |
 | frontend-design | [anthropics/skills](https://github.com/anthropics/skills/tree/34040c9/skills/frontend-design) | `34040c9` |
 | impeccable | [pbakaus/impeccable](https://github.com/pbakaus/impeccable/tree/e0881d2/.agents/skills/impeccable) | `e0881d2` |
 | convex-expert | [get-convex/agent-skills](https://github.com/get-convex/agent-skills/tree/0aa1057/skills/convex-expert) | `0aa1057` |

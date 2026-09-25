@@ -1,5 +1,4 @@
 # name	upstream repo	path to the skill folder in that repo
-vercel-react-best-practices	vercel-labs/agent-skills	skills/react-best-practices
 frontend-design	anthropics/skills	skills/frontend-design
 impeccable	pbakaus/impeccable	.agents/skills/impeccable
 convex-expert	get-convex/agent-skills	skills/convex-expert
