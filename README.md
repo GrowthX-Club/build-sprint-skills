@@ -24,6 +24,7 @@ Already installed an earlier bundle? Run the same command again — it overwrite
 | convex-expert | Writing code in `convex/`. Name it if it doesn't kick in |
 | convex-auth | Adding sign-in |
 | convex-agent | Adding an AI agent or chat to the app |
+| convex-dev-static-hosting | Putting the app online. Hosts the frontend on Convex: `npm run deploy`, live at `https://<deployment>.convex.site` |
 | copywriting | Landing page, pricing page, headlines |
 | agentation | You want to point at things on your running app instead of describing them. Type `/agentation` once to set it up |
 | art-direction | Any image asset — hero, og:image, illustration, empty state. Gives the project one visual point of view first |

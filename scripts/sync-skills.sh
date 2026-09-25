@@ -46,3 +46,10 @@ grep -v '^#' "$root/skills.tsv" | while IFS=$'\t' read -r name repo path; do
   echo "| $name | [$repo]($link) | \`$sha\` |" >> "$sources"
   echo "synced $name ($repo@$sha)"
 done
+
+# convex publishes this one as a single file on its site, not in a repo
+mkdir -p "$root/skills/convex-dev-static-hosting"
+curl -fsSL https://www.convex.dev/components/static-hosting/SKILL.md -o "$root/skills/convex-dev-static-hosting/SKILL.md"
+curl -fsSL https://raw.githubusercontent.com/get-convex/static-hosting/main/LICENSE -o "$root/skills/convex-dev-static-hosting/UPSTREAM-LICENSE"
+echo "| convex-dev-static-hosting | [convex.dev](https://www.convex.dev/components/static-hosting/SKILL.md) | fetched $(date +%Y-%m-%d) |" >> "$sources"
+echo "synced convex-dev-static-hosting (convex.dev)"
